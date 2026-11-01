@@ -1,4 +1,8 @@
-# Print cubes of numbers from 1 to 10
+# Print squares, cubes and doubles
 
 for i in range(1, 11):
-    print("Cube of", i, "=", i ** 3)
+    print("Number:", i)
+    print("Square:", i ** 2)
+    print("Cube:", i ** 3)
+    print("Double:", i * 2)
+    print()
